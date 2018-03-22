@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/10_capstone/10_capstone.iml" filepath="$PROJECT_DIR$/10_capstone/10_capstone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InteractRESTBasicAPITest/InteractRESTBasicAPITest.iml" filepath="$PROJECT_DIR$/InteractRESTBasicAPITest/InteractRESTBasicAPITest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/callout_diagnostic/callout_diagnostic.iml" filepath="$PROJECT_DIR$/callout_diagnostic/callout_diagnostic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interact_callout_JLR_v01/interact_callout_JLR_v01.iml" filepath="$PROJECT_DIR$/interact_callout_JLR_v01/interact_callout_JLR_v01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interact_callout_JLR_v02/interact_callout_JLR_v02.iml" filepath="$PROJECT_DIR$/interact_callout_JLR_v02/interact_callout_JLR_v02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interact_callout_test/interact_callout_test.iml" filepath="$PROJECT_DIR$/interact_callout_test/interact_callout_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interact_java_clients/interact_java_clients.iml" filepath="$PROJECT_DIR$/interact_java_clients/interact_java_clients.iml" />
+    </modules>
+  </component>
+</project>

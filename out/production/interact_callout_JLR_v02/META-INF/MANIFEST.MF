@@ -1,0 +1,2 @@
+Manifest-Version: 1.0
+Class-Path: ./sqljdbc41.jar log4j-1.2.17.jar interact_externalcallout.jar interact.jar

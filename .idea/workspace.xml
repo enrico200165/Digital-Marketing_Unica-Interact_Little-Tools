@@ -1,0 +1,1776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="interact_callout_deployable.jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="274bd61c-7dfe-412e-8a61-9779cde7927b" name="Default" comment="Improved testSession&#10;&#10;major cleanup of code">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/e_viali.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/e_viali.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/10_capstone/preproc01.R" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/10_capstone/tb_learn.R" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/10_capstone/tokenClean.R" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/BEFORE_BATCH_InteractAPIUtils.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/EVNetUtils.py" afterPath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/EVNetUtils.py" />
+      <change beforePath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/InteractAPIUtils.py" afterPath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/InteractAPIUtils.py" />
+      <change beforePath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/JLR_session.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/LoggerModule.py" afterPath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/LoggerModule.py" />
+      <change beforePath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/MAINCustomerJourneyBits.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/config_files.py" afterPath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/config_files.py" />
+      <change beforePath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/db_jlr.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/globals.py" afterPath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/globals.py" />
+      <change beforePath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/testdata.py" afterPath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/testdata.py" />
+      <change beforePath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/verifications.py" afterPath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/verifications.py" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="config_files.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/config_files.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding>
+                <element signature="e#23#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_little_functs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/db_little_functs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EVNetUtils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/EVNetUtils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainTest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/MainTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testSession.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/testSession.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="globals.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/globals.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="227" column="0" lean-forward="false" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InteractAPIUtils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/InteractAPIUtils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="583" column="0" lean-forward="false" selection-start-line="583" selection-start-column="0" selection-end-line="583" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="SQL Script" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>#</find>
+      <find>ds_ri</find>
+      <find>is not</find>
+      <find>dumpCalls</find>
+      <find>getPro</find>
+      <find>ryi</find>
+      <find>xx</find>
+      <find>xxx</find>
+      <find>aware</find>
+      <find>log</find>
+      <find>attrs_before_evt</find>
+      <find>new_vistor_attr</find>
+      <find>&quot;statusCode&quot;:1</find>
+      <find>new_vistor_attrs</find>
+      <find>one batch</find>
+      <find>bath</find>
+      <find>ok2</find>
+      <find>events</find>
+      <find>verification_header</find>
+      <find>.*uaci_params</find>
+      <find>cannot find on db attribute</find>
+      <find>query on DB</find>
+      <find>&quot;;&quot;</find>
+      <find>g.params_db.</find>
+      <find>select</find>
+      <find>jlr</find>
+      <find>CookieID</find>
+      <find>cookie</find>
+      <find>cook</find>
+      <find>interaction_points</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>._req_json</replace>
+      <replace>rjust</replace>
+      <replace>attr_date_string</replace>
+      <replace>this.config_</replace>
+      <replace>default</replace>
+      <replace>new_vistor_profile_attrs.</replace>
+      <replace>new_vistor_default_num</replace>
+      <replace>CreateAndSegmentNewCookie_v01</replace>
+      <replace>CreateAndSegmentNewCookie_v02</replace>
+      <replace>AudienceID</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\e_viali\Documents\dev\intellij\MarketingCloudLittleTools_Python\InteractRESTBasicAPITest</dir>
+      <dir>C:\Users\e_viali\Documents\dev\intellij\MarketingCloudLittleTools_Python\10_capstone</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/RestCMDJSONBuild..py" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/firstTest.py" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/RestCMDJSONBuild.py" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/CustomerJourneyBits.py" />
+        <option value="$PROJECT_DIR$/JAVA/src/InteractClients/original_samples/SampleClient.java" />
+        <option value="$PROJECT_DIR$/JAVA/src/interact/clients_original/SampleClient.java" />
+        <option value="$PROJECT_DIR$/JAVA/src/interact/clients_enrico/UACI_Loc_Cl.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+        <option value="$PROJECT_DIR$/JAVA/src/interact/clients_enrico/UACI_Dev_RestClient.java" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/experiment.py" />
+        <option value="$PROJECT_DIR$/JAVA/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/InteractCallOut/src/CreateAndSegmentNewCookie.java" />
+        <option value="$PROJECT_DIR$/InteractCallOut/src/Main.java" />
+        <option value="$PROJECT_DIR$/InteractCallOut/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/InteractCallOut/src/CreateAndSegmentNewCookie_v00.java" />
+        <option value="$PROJECT_DIR$/InteractCallOut/src/deployable/CreateAndSegmentNewCookie_v00.java" />
+        <option value="$PROJECT_DIR$/InteractCallOut/src/callouttest/SampleExternalCallout.java" />
+        <option value="$PROJECT_DIR$/interact_callout_test/src/callouttest/CreateAndSegmentNewCookie_v00.java" />
+        <option value="$PROJECT_DIR$/interact_callout_deployable/src/CreateAndSegmentNewCookie_v00.java" />
+        <option value="$PROJECT_DIR$/interact_callout_deployable/src/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/db_utils.py" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/config_files.py" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/verifications.py" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/EVNetUtils.py" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/testdata.py" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/globals.py" />
+        <option value="$PROJECT_DIR$/interact_callout_test/callout.sql" />
+        <option value="$PROJECT_DIR$/interact_callout_deployable/src/interact_callout_deployable/CreateAndSegmentNewCookie_v00.java" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/fromInteractLog.sql" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/db_jlr.py" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/InteractAPIUtils.py" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/MAINCustomerJourneyBits.py" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/JLR_session.py" />
+        <option value="$PROJECT_DIR$/interact_callout_JLR_v01/src/interact_callout_JLR_v01/CreateAndSegmentNewCookie_v01.java" />
+        <option value="$PROJECT_DIR$/interact_callout_test/src/callouttest/Main.java" />
+        <option value="$PROJECT_DIR$/callout_diagnostic/src/com/enrico200165/ibm/callouts/diagnostic/CalloutDiagnostic.java" />
+        <option value="$PROJECT_DIR$/interact_callout_JLR_v02/src/interact_callout_JLR_V02_test/Interact_callout_JLR_V02_test.java" />
+        <option value="$PROJECT_DIR$/interact_callout_JLR_v02/src/interact_callout_JLR_v02/CreateAndSegmentNewCookie_v02.java" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/src/MAINCustomerJourneyBits.py" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/src/JLR_session.py" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/src/db_jlr.py" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/src/LoggerModule.py" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/src/testdata.py" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/src/verifications.py" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/src/testSession.py" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/src/InteractAPIUtils.py" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/src/MainTest.py" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/src/db_little_functs.py" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/src/EVNetUtils.py" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/src/config_files.py" />
+        <option value="$PROJECT_DIR$/InteractRESTBasicAPITest/src/globals.py" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-11" />
+    <option name="y" value="6" />
+    <option name="width" value="923" />
+    <option name="height" value="701" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers PackagesPane="true" ProjectPane="false" />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource Scope="true" PackagesPane="true" ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="10_capstone" type="cbb8eebc:String" user="10_capstone" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="10_capstone" type="cbb8eebc:String" user="10_capstone" />
+              <item name="10_capstone" type="cbb8eebc:String" user="10_capstone" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="interact_callout_JLR_v02" type="cbb8eebc:String" user="interact_callout_JLR_v02" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="interact_callout_JLR_v02" type="cbb8eebc:String" user="interact_callout_JLR_v02" />
+              <item name="interact_callout_JLR_v02" type="cbb8eebc:String" user="interact_callout_JLR_v02" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="interact_callout_JLR_v02" type="cbb8eebc:String" user="interact_callout_JLR_v02" />
+              <item name="interact_callout_JLR_v02" type="cbb8eebc:String" user="interact_callout_JLR_v02" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="interact_callout_JLR_v02" type="cbb8eebc:String" user="interact_callout_JLR_v02" />
+              <item name="interact_callout_JLR_v02" type="cbb8eebc:String" user="interact_callout_JLR_v02" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="interact_callout_JLR_V02_test" type="cbb8eebc:String" user="interact_callout_JLR_V02_test" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="interact_java_clients" type="cbb8eebc:String" user="interact_java_clients" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="interact_java_clients" type="cbb8eebc:String" user="interact_java_clients" />
+              <item name="interact_java_clients" type="cbb8eebc:String" user="interact_java_clients" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="InteractRESTBasicAPITest" type="cbb8eebc:String" user="InteractRESTBasicAPITest" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="InteractRESTBasicAPITest" type="cbb8eebc:String" user="InteractRESTBasicAPITest" />
+              <item name="InteractRESTBasicAPITest" type="cbb8eebc:String" user="InteractRESTBasicAPITest" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="InteractRESTBasicAPITest" type="cbb8eebc:String" user="InteractRESTBasicAPITest" />
+              <item name="InteractRESTBasicAPITest" type="cbb8eebc:String" user="InteractRESTBasicAPITest" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MarketingCloudLittleTools_Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InteractRESTBasicAPITest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MarketingCloudLittleTools_Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InteractRESTBasicAPITest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MarketingCloudLittleTools_Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="MarketingCloudLittleTools_Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="MarketingCloudLittleTools_Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="b5f07198:RTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MarketingCloudLittleTools_Python" type="58d84e3e:PackageViewProjectNode" />
+              <item name="InteractRESTBasicAPITest" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.24827586" />
+    <property name="jdk.selected.JAVA_MODULE" value="JDK_WAS_1.7" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="C:/programs_foss/R-3.4.3/bin/R.exe" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/interact_callout_deployable/src" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="marketingcloudlittletools_python" />
+    <property name="SearchEverywhereHistoryKey" value="http&#9;null&#9;null&#10;BANNER&#9;FILE&#9;file://C:/Users/e_viali/AppData/Local/Continuum/anaconda3/pkgs/libssh2-1.8.0-vc14hcf584a9_2/Library/share/man/man3/libssh2_banner_set.3&#10;banner&#9;null&#9;null&#10;DS_SEGM&#9;null&#9;null" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\e_viali\Documents\dev\intellij\MarketingCloudLittleTools_Python\interact_callout_deployable\src" />
+      <recent name="C:\Users\e_viali\Documents\dev\intellij\MarketingCloudLittleTools_Python\InteractCallOut\src" />
+      <recent name="C:\Users\e_viali\Documents\dev\intellij\MarketingCloudLittleTools_Python\JAVA\src" />
+      <recent name="C:\Users\e_viali\Documents\dev\intellij\MarketingCloudLittleTools_Python\InteractRESTBasicAPITest" />
+      <recent name="C:\Users\e_viali\Documents\dev\intellij\MarketingCloudLittleTools_Python\JAVA\src\interact\clients_enrico" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\e_viali\Documents\dev\intellij\MarketingCloudLittleTools_Python\InteractRESTBasicAPITest\src" />
+      <recent name="C:\Users\e_viali\Documents\dev\intellij\MarketingCloudLittleTools_Python\callout_diagnostic\src\com\enrico200165\ibm\callouts\diagnostic" />
+      <recent name="C:\Users\e_viali\Documents\dev\intellij\MarketingCloudLittleTools_Python\interact_callout_deployable\src\interact_callout_deployable" />
+      <recent name="C:\Users\e_viali\Documents\dev\intellij\MarketingCloudLittleTools_Python\interact_callout_test\src\callouttest" />
+      <recent name="C:\Users\e_viali\Documents\dev\intellij\MarketingCloudLittleTools_Python\InteractCallOut\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.EMPTY">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="Interact_callout_JLR_V02_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interact_callout_JLR_V02_test.Interact_callout_JLR_V02_test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="interact_callout_JLR_v02" />
+      <envs />
+    </configuration>
+    <configuration name="UACI_Dev_RestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interact.clients_enrico.UACI_Dev_RestClient" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="interact_java_clients" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="InteractRESTBasicAPITest" />
+      <envs />
+    </configuration>
+    <configuration name="API Tests" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\e_viali\AppData\Local\Continuum\anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InteractRESTBasicAPITest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InteractRESTBasicAPITest" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InteractRESTBasicAPITest/src/InteractAPIUtils.py" />
+      <option name="PARAMETERS" value="--url &quot;http://prd-jlr-irt02.occam-dm.com/interact/servlet/RestServlet&quot; --channel &quot;LRDX_Staging&quot; --aud_lev &quot;Online&quot; --aud_fname &quot;CookieID&quot;  --sess_id 9999   --aud_id &quot;enrico p 0313 15:54:19.608-002&quot;" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="EMPTY" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\e_viali\AppData\Local\Continuum\anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InteractRESTBasicAPITest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InteractRESTBasicAPITest" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InteractRESTBasicAPITest/src/MainTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="MAINCustomerJourneyBits EXT Sec" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\e_viali\AppData\Local\Continuum\anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InteractRESTBasicAPITest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InteractRESTBasicAPITest" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InteractRESTBasicAPITest/MAINCustomerJourneyBits.py" />
+      <option name="PARAMETERS" value="--url &quot;https://houston.occam-dm.com/interact/servlet/RestServlet&quot; --channel &quot;LRDX_Staging&quot; --aud_lev &quot;Online&quot; --aud_fname &quot;CookieID&quot;  --sess_id 9999   --aud_id &quot;41131479893043143515320&quot;" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="MAINCustomerJourneyBits INT Sec" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\e_viali\AppData\Local\Continuum\anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InteractRESTBasicAPITest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InteractRESTBasicAPITest" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InteractRESTBasicAPITest/MAINCustomerJourneyBits.py" />
+      <option name="PARAMETERS" value="--url &quot;https://prd-jlr-irt02.occam-dm.com/interact/servlet/RestServlet&quot; --channel &quot;LRDX_Staging&quot; --aud_lev &quot;Online&quot; --aud_fname &quot;CookieID&quot;  --sess_id 9999   --aud_id &quot;41131479893043143515320&quot;" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="STD Session" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\e_viali\AppData\Local\Continuum\anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InteractRESTBasicAPITest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InteractRESTBasicAPITest" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InteractRESTBasicAPITest/src/MainTest.py" />
+      <option name="PARAMETERS" value="--channel &quot;LRDX_Staging&quot; --aud_lev &quot;Online&quot; --aud_fname &quot;CookieID&quot;  --sess_id 333   --aud_id &quot;41131479893043143515320&quot;" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="config_files" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InteractRESTBasicAPITest/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InteractRESTBasicAPITest" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InteractRESTBasicAPITest/src/config_files.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="verifications" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InteractRESTBasicAPITest/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InteractRESTBasicAPITest" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InteractRESTBasicAPITest/src/verifications.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="preproc01" type="RRunConfigurationType" factoryName="R">
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/10_capstone/preproc01.R" />
+      <option name="SCRIPT_ARGS" value="" />
+      <option name="WORKING_DIRECTORY_PATH" value="C:\Users\e_viali\Documents\dev\intellij\MarketingCloudLittleTools_Python\10_capstone" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InteractRESTBasicAPITest" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration name="Unittests in InteractAPIUtils.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InteractRESTBasicAPITest/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InteractRESTBasicAPITest" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/InteractRESTBasicAPITest/src/InteractAPIUtils.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InteractRESTBasicAPITest" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InteractRESTBasicAPITest" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InteractRESTBasicAPITest" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InteractRESTBasicAPITest" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list size="11">
+      <item index="0" class="java.lang.String" itemvalue="Python.MAINCustomerJourneyBits INT Sec" />
+      <item index="1" class="java.lang.String" itemvalue="Python.MAINCustomerJourneyBits EXT Sec" />
+      <item index="2" class="java.lang.String" itemvalue="Python.STD Session" />
+      <item index="3" class="java.lang.String" itemvalue="Python.EMPTY" />
+      <item index="4" class="java.lang.String" itemvalue="Python.API Tests" />
+      <item index="5" class="java.lang.String" itemvalue="R.preproc01" />
+      <item index="6" class="java.lang.String" itemvalue="Application.Interact_callout_JLR_V02_test" />
+      <item index="7" class="java.lang.String" itemvalue="Application.UACI_Dev_RestClient" />
+      <item index="8" class="java.lang.String" itemvalue="Python.verifications" />
+      <item index="9" class="java.lang.String" itemvalue="Python.config_files" />
+      <item index="10" class="java.lang.String" itemvalue="Python tests.Unittests in InteractAPIUtils.py" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.config_files" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in InteractAPIUtils.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python.verifications" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Interact_callout_JLR_V02_test" />
+        <item index="4" class="java.lang.String" itemvalue="Application.UACI_Dev_RestClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="274bd61c-7dfe-412e-8a61-9779cde7927b" name="Default" comment="" />
+      <created>1518448817031</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1518448817031</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Changed file name, experiment.py to verifications.py">
+      <created>1519389424842</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1519389424842</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Cosmetic adjustments to some dump() functions">
+      <created>1519392282359</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1519392282359</updated>
+    </task>
+    <task id="LOCAL-00022" summary="nb">
+      <created>1519727835349</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1519727835349</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Improved output of attributes dump side by side, trivial code change but great benefit for user, hence commit">
+      <created>1519728371873</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1519728371873</updated>
+    </task>
+    <task id="LOCAL-00024" summary="nb">
+      <created>1519746964619</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1519746964619</updated>
+    </task>
+    <task id="LOCAL-00025" summary="starting writing a call out">
+      <created>1519748488210</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1519748488210</updated>
+    </task>
+    <task id="LOCAL-00026" summary="nb">
+      <created>1519748789968</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1519748789968</updated>
+    </task>
+    <task id="LOCAL-00027" summary="does not work&#10;saving work">
+      <created>1519754856284</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1519754856284</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Adding tracing and crash protection to original sample class">
+      <created>1519809222117</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1519809222117</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Made it &quot;resistant&quot; to wrong parameters, &#10;in such cases getValue() returns a string with digits (currently &quot;98765&quot;)">
+      <created>1519811094097</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1519811094097</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Class finally seems reasonably robust and verbose,&#10;to make debug easier&#10;- tries to survive errors without crashes/exception (rather than existing)&#10;- is very verbose">
+      <created>1519812619263</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1519812619263</updated>
+    </task>
+    <task id="LOCAL-00031" summary="changed module structure, problems strange with intellij, now things seem ok&#10;trying to commit">
+      <created>1519817877490</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1519817877490</updated>
+    </task>
+    <task id="LOCAL-00032" summary="changed module structure, problems strange with intellij, now things seem ok&#10;trying to commit&#10;&#10;CONTINUING adjusting structure">
+      <created>1519819425821</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1519819425821</updated>
+    </task>
+    <task id="LOCAL-00033" summary="callout with stored procedure starts working">
+      <created>1519992894638</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1519992894638</updated>
+    </task>
+    <task id="LOCAL-00034" summary="developing callout, starts working">
+      <created>1519992956601</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1519992956601</updated>
+    </task>
+    <task id="LOCAL-00035" summary="developing call out">
+      <created>1519993001950</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1519993001950</updated>
+    </task>
+    <task id="LOCAL-00036" summary="developing call-out, bugfixing">
+      <created>1520021287478</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1520021287478</updated>
+    </task>
+    <task id="LOCAL-00037" summary="started adding DB access, for now simple selects">
+      <created>1520030932327</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1520030932327</updated>
+    </task>
+    <task id="LOCAL-00038" summary="changed module structure, problems strange with intellij, now things seem ok&#10;trying to commit">
+      <created>1520031032147</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1520031032147</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Made robust again after latest development had made it not robust">
+      <created>1520067595640</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1520067595640</updated>
+    </task>
+    <task id="LOCAL-00040" summary="restored normal operation broken by work on robustness :-)">
+      <created>1520068607235</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1520068607235</updated>
+    </task>
+    <task id="LOCAL-00041" summary="started implementing JLR">
+      <created>1520070339834</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1520070339834</updated>
+    </task>
+    <task id="LOCAL-00042" summary="starts working">
+      <created>1520077603023</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1520077603023</updated>
+    </task>
+    <task id="LOCAL-00043" summary="testing JLR scenario, PROBLEM (expected by me):&#10;inserts in the DB do not set the attributes to values in DB">
+      <created>1520084738898</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1520084738898</updated>
+    </task>
+    <task id="LOCAL-00044" summary="adjusting restart-session to amke interact realize/read attributes set by stored procedure">
+      <created>1520085794991</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1520085794991</updated>
+    </task>
+    <task id="LOCAL-00045" summary="seems to work, but the stored procedure does not work">
+      <created>1520095731711</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1520095731711</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Improved python testing">
+      <created>1520262757749</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1520262757749</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Started implementing test of sending event that requests to persist data, even though such functionality is NOT yet implemented">
+      <created>1520328556853</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1520328556853</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Some minor improvements">
+      <created>1520348065096</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1520348065096</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Fixed a problem (of SQL server or jdbc driver) in the callout, changed parameter style passing to use parameter string names rather than positio&#10;&#10;Improved the java test of the callout">
+      <created>1520422077874</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1520422077874</updated>
+    </task>
+    <task id="LOCAL-00050" summary="improvements to callout and its test">
+      <created>1520423290842</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1520423290843</updated>
+    </task>
+    <task id="LOCAL-00051" summary="IMproved readability of tests">
+      <created>1520431547820</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1520431547820</updated>
+    </task>
+    <task id="LOCAL-00052" summary="refining functional test">
+      <created>1520442636906</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1520442636906</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Improved testing">
+      <created>1520523878053</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1520523878069</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Started devloping new version of call-out that will take 3 parameters rather than 2,&#10;the new third parameters will be an email address">
+      <created>1520850672410</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1520850672426</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Updating test to the new callout">
+      <created>1520875278256</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1520875278256</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Developing callout that takes email as third parameter">
+      <created>1520875382435</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1520875382435</updated>
+    </task>
+    <task id="LOCAL-00057" summary="renamed 1 file">
+      <created>1520939612392</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1520939612392</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Changing implementation of commands, now PROBABLY implicitly use batch format, &#10;but explicit batch is not supported, implementing this in a clear explicit way">
+      <created>1520953720830</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1520953720832</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Continuing work to to manage batch (and other commands in a cleaner way)">
+      <created>1520962922111</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1520962922111</updated>
+    </task>
+    <task id="LOCAL-00060" summary="restructured json handling to support adding batch commands,&#10;this restructuring is 70% of effort to implement batch">
+      <created>1521106928875</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1521106928891</updated>
+    </task>
+    <task id="LOCAL-00061" summary="implemmenting batch commands, save work">
+      <created>1521111504604</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1521111504604</updated>
+    </task>
+    <task id="LOCAL-00062" summary="batch commands seem to work&#10;saving before cleaning up the code (delete copies of old version of files, &#10;old code commented out Etc.&#10;&#10;After clean up next modifications should be:&#10;- improve some function names&#10;- move events and attributes out of code in config file">
+      <created>1521215628260</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1521215628262</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Improved testSession&#10;&#10;major cleanup of code">
+      <created>1521217352386</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1521217352387</updated>
+    </task>
+    <task id="LOCAL-00064" summary="continuiing cleaning up">
+      <created>1521217816539</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1521217816539</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Modifying the configuration to read from file parameters now gotten from command line,&#10;in the middle of work, runs without problems but code messy and dirty">
+      <created>1521548441055</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1521548441056</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Continue restructuring to move out, as far as possible, all that is project specific,&#10;many modifications, though no major structural">
+      <created>1521558042822</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1521558042823</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Moving interaction points out of code into configuration file, maybe completed">
+      <created>1521562604151</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1521562604151</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Code starts working with interaction points outside of the code, still:&#10;- extremely fragile&#10;- bad structure, the whole condfig management needs restructuring">
+      <created>1521565683813</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1521565683813</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_InteractAPIUtils_py - 2018.02.22 at 15h 54m 15s.xml">
+      <configuration name="Unittests in InteractAPIUtils.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_InteractAPIUtils_py - 2018.02.23 at 09h 26m 14s.xml">
+      <configuration name="Unittests in InteractAPIUtils.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_InteractAPIUtils_py - 2018.02.23 at 09h 27m 01s.xml">
+      <configuration name="Unittests in InteractAPIUtils.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_InteractAPIUtils_py - 2018.03.13 at 15h 56m 09s.xml">
+      <configuration name="Unittests in InteractAPIUtils.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_InteractAPIUtils_py - 2018.03.13 at 15h 56m 47s.xml">
+      <configuration name="Unittests in InteractAPIUtils.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_InteractAPIUtils_py - 2018.03.13 at 15h 57m 45s.xml">
+      <configuration name="Unittests in InteractAPIUtils.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_InteractAPIUtils_py - 2018.03.13 at 16h 02m 25s.xml">
+      <configuration name="Unittests in InteractAPIUtils.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_InteractAPIUtils_py - 2018.03.13 at 16h 03m 39s.xml">
+      <configuration name="Unittests in InteractAPIUtils.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_InteractAPIUtils_py - 2018.03.13 at 16h 06m 06s.xml">
+      <configuration name="Unittests in InteractAPIUtils.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_InteractAPIUtils_py - 2018.03.13 at 16h 23m 30s.xml">
+      <configuration name="Unittests in InteractAPIUtils.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-11" y="6" width="923" height="701" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3120915" sideWeight="0.5854766" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3602812" sideWeight="0.43105447" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3602812" sideWeight="0.5689455" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36962366" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26071844" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50884956" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24914967" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37258348" sideWeight="0.4866744" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32688928" sideWeight="0.484957" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43512657" sideWeight="0.3069728" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50884956" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24914967" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42810458" sideWeight="0.49713466" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32753164" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31317204" sideWeight="0.44047618" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36601308" sideWeight="0.6930272" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36962366" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20574887" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.484957" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="seems to work, but the stored procedure does not work" />
+    <MESSAGE value="Improved python testing" />
+    <MESSAGE value="Started implementing test of sending event that requests to persist data, even though such functionality is NOT yet implemented" />
+    <MESSAGE value="Some minor improvements" />
+    <MESSAGE value="Fixed a problem (of SQL server or jdbc driver) in the callout, changed parameter style passing to use parameter string names rather than positio&#10;&#10;Improved the java test of the callout" />
+    <MESSAGE value="improvements to callout and its test" />
+    <MESSAGE value="IMproved readability of tests" />
+    <MESSAGE value="refining functional test" />
+    <MESSAGE value="Improved testing" />
+    <MESSAGE value="Started devloping new version of call-out that will take 3 parameters rather than 2,&#10;the new third parameters will be an email address" />
+    <MESSAGE value="Updating test to the new callout" />
+    <MESSAGE value="Developing callout that takes email as third parameter" />
+    <MESSAGE value="renamed 1 file" />
+    <MESSAGE value="Changing implementation of commands, now PROBABLY implicitly use batch format, &#10;but explicit batch is not supported, implementing this in a clear explicit way" />
+    <MESSAGE value="Continuing work to to manage batch (and other commands in a cleaner way)" />
+    <MESSAGE value="restructured json handling to support adding batch commands,&#10;this restructuring is 70% of effort to implement batch" />
+    <MESSAGE value="implemmenting batch commands, save work" />
+    <MESSAGE value="batch commands implementation starts working&#10;&#10;code still very dirty with leftover previous to batch commands implementation that need to be removed,&#10;at next commit" />
+    <MESSAGE value="batch commands seem to work&#10;saving before cleaning up the code (delete copies of old version of files, &#10;old code commented out Etc.&#10;&#10;After clean up next modifications should be:&#10;- improve some function names&#10;- move events and attributes out of code in config file" />
+    <MESSAGE value="Improved testSession&#10;&#10;major cleanup of code" />
+    <MESSAGE value="continuiing cleaning up" />
+    <MESSAGE value="Modifying the configuration to read from file parameters now gotten from command line,&#10;in the middle of work, runs without problems but code messy and dirty" />
+    <MESSAGE value="Continue restructuring to move out, as far as possible, all that is project specific,&#10;many modifications, though no major structural" />
+    <MESSAGE value="Moving interaction points out of code into configuration file, maybe completed" />
+    <MESSAGE value="Code starts working with interaction points outside of the code, still:&#10;- extremely fragile&#10;- bad structure, the whole condfig management needs restructuring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code starts working with interaction points outside of the code, still:&#10;- extremely fragile&#10;- bad structure, the whole condfig management needs restructuring" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/IBM/IMS/Interact/lib/unica-common.jar!/com/unica/manager/utils/i18n/I18nUtility.class</url>
+          <line>211</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/interact_callout_test/src/callouttest/SampleExternalCallout.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/interact_callout_deployable/src/interact_callout_JLR_v01/CreateAndSegmentNewCookie_v00.java</url>
+          <line>435</line>
+          <properties />
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/interact_callout_deployable/src/interact_callout_JLR_v01/CreateAndSegmentNewCookie_v00.java</url>
+          <line>487</line>
+          <properties />
+          <option name="timeStamp" value="338" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/interact_callout_deployable/src/interact_callout_JLR_v01/CreateAndSegmentNewCookie_v00.java</url>
+          <line>354</line>
+          <properties />
+          <option name="timeStamp" value="444" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/interact_callout_deployable/src/interact_callout_JLR_v01/CreateAndSegmentNewCookie_v00.java</url>
+          <line>326</line>
+          <properties />
+          <option name="timeStamp" value="445" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/interact_callout_JLR_v02/src/interact_callout_JLR_v02/CreateAndSegmentNewCookie_v02.java</url>
+          <line>497</line>
+          <properties />
+          <option name="timeStamp" value="471" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/interact_java_clients/src/interact/clients_enrico/UACI_Dev_RestClient.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="489" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/LoggerModule.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="568" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/InteractAPIUtils.py</url>
+          <line>423</line>
+          <option name="timeStamp" value="599" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/InteractAPIUtils.py</url>
+          <line>613</line>
+          <option name="timeStamp" value="621" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/testSession.py</url>
+          <line>194</line>
+          <option name="timeStamp" value="625" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/testSession.py</url>
+          <line>202</line>
+          <option name="timeStamp" value="626" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/InteractAPIUtils.py</url>
+          <line>898</line>
+          <option name="timeStamp" value="633" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="657" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="setValue">
+      <expression>
+        <expression-string>False</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>uaci_params</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>g.params_db</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>g.ParamsDB</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>g.log</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ss</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>profile</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>g.events[0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>nr_test_cookies</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>event</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/interact_callout_deployable/src/META-INF/MANIFEST.MF" />
+    <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/LoggerModule.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/requests/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="827" column="0" lean-forward="false" selection-start-line="827" selection-start-column="0" selection-end-line="827" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/pkgs/libssh2-1.8.0-vc14hcf584a9_2/Library/share/man/man3/libssh2_banner_set.3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/verifications.py" />
+    <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/config_files.py" />
+    <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/EVNetUtils.py" />
+    <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/testdata.py" />
+    <entry file="file://$PROJECT_DIR$/interact_callout_test/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="30" column="76" lean-forward="false" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/callout.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interact_callout_test/callout.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="114" column="26" lean-forward="false" selection-start-line="114" selection-start-column="26" selection-end-line="114" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interact_callout_deployable/src/interact_callout_JLR_v01/CreateAndSegmentNewCookie_v00.java" />
+    <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/db_jlr.py" />
+    <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/fromInteractLog.sql" />
+    <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/globals.py" />
+    <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/JLR_session.py" />
+    <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/InteractAPIUtils.py" />
+    <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/MAINCustomerJourneyBits.py" />
+    <entry file="file://$PROJECT_DIR$/callout_diagnostic/src/com/enrico200165/ibm/callouts/diagnostic/CalloutDiagnostic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="138" column="13" lean-forward="true" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console.snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10_capstone/preproc01.R" />
+    <entry file="file://$PROJECT_DIR$/interact_java_clients/src/interact/clients_enrico/UACI_Dev_RestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding>
+            <element signature="e#3078#3087#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/IBM/IMS/Interact/lib/unica-common.jar!/com/unica/manager/utils/i18n/I18nUtility.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="211" column="0" lean-forward="false" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/MyCustomClass.log" />
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/unittest/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/unittest/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/occam_delete_2018-03-03_09-05-21" />
+    <entry file="file://$PROJECT_DIR$/occam_delete_2018-03-13_09-03-12" />
+    <entry file="file://$PROJECT_DIR$/interact_callout_JLR_v02/src/interact_callout_JLR_v02/CreateAndSegmentNewCookie_v02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3621">
+          <caret line="261" column="16" lean-forward="false" selection-start-line="261" selection-start-column="16" selection-end-line="261" selection-end-column="16" />
+          <folding>
+            <element signature="class#DriverShim#0" expanded="false" />
+            <element signature="e#12291#12292#0" expanded="false" />
+            <element signature="e#12315#12316#0" expanded="false" />
+            <marker date="1521023027879" expanded="true" signature="14760:14830" ph=" SELECT statement (TBLONLINEPROFILE)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interact_callout_JLR_v01/src/interact_callout_JLR_v01/CreateAndSegmentNewCookie_v01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="313" column="42" lean-forward="false" selection-start-line="313" selection-start-column="42" selection-end-line="313" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/BEFORE_BATCH_InteractAPIUtils.py" />
+    <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/BEFORE_BATCH_JLR_session.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="356" column="0" lean-forward="false" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/requests/adapters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8075">
+          <caret line="502" column="0" lean-forward="false" selection-start-line="502" selection-start-column="0" selection-end-line="502" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="1334" column="0" lean-forward="false" selection-start-line="1334" selection-start-column="0" selection-end-line="1334" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/interactREST.log" />
+    <entry file="file://$PROJECT_DIR$/interact_callout_JLR_v02/src/interact_callout_JLR_V02_test/Interact_callout_JLR_V02_test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2771">
+          <caret line="175" column="11" lean-forward="false" selection-start-line="175" selection-start-column="11" selection-end-line="175" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interact_callout_test/src/callouttest/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2958">
+          <caret line="189" column="11" lean-forward="false" selection-start-line="189" selection-start-column="11" selection-end-line="189" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/LoggerModule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding>
+            <element signature="e#23#32#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/testdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/verifications.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="129" column="23" lean-forward="false" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="315" column="33" lean-forward="false" selection-start-line="315" selection-start-column="33" selection-end-line="315" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/interactREST.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="17">
+          <caret line="54" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18058" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/db_little_functs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/EVNetUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/configparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="958" column="0" lean-forward="false" selection-start-line="958" selection-start-column="0" selection-end-line="958" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/InteractAPIUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="583" column="0" lean-forward="false" selection-start-line="583" selection-start-column="0" selection-end-line="583" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/config_files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/globals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="227" column="0" lean-forward="false" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/MainTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/testSession.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>interact_callout_deployable.jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24827586" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.32528734" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>interact_callout_deployable</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.32528734" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>JDK_WAS_1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.32528734" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>callout_diagnostic</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24827586" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>R User Library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.32528734" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

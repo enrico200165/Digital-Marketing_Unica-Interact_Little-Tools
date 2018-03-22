@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="interact_callout_deployable.jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/interact_callout</output-path>
+    <root id="archive" name="interact_callout_deployable.jar">
+      <element id="library" level="application" name="interact_externalcallout" />
+      <element id="module-output" name="interact_callout_JLR_v02" />
+    </root>
+  </artifact>
+</component>
