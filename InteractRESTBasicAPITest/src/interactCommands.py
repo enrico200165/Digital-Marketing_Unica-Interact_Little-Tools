@@ -4,15 +4,13 @@ import json
 import sys
 import unittest
 import numbers
-import pprint
 import re
-import requests
 import time
 import datetime
 import copy
 
 import globals as g
-import EVNetUtils
+import EVNetUtils as nu
 
 
 def get_type(val):
@@ -72,8 +70,6 @@ def wrap_response(sessionID, commandString):
     s = '{{"batchStatusCode":{},"responses":[{}]}}'.format(sessionID,commandString)
     # g.log.info(s)
     return s
-
-
 
 
 def decode(s):
@@ -393,7 +389,7 @@ class JSONCmd(object):
         return None # just to debug/break
 
     def call_simple(self, dumpOnError = False):
-        resp = myREST(self.get_json(), self._uaci_params.get_url(), False)
+        resp = nu.myREST(self.get_json(), self._uaci_params.get_url(), False)
         self.set_json_from_rsp(resp)
         if not self.OK():
             s = "{} call failed, batch code {batch_code}".format(type(self).__name__
@@ -424,10 +420,6 @@ class JSONCmd(object):
         return ret
 
     def OK(self):
-        '''
-        Quick high level check
-        :return:
-        '''
         if self._data_dict is None or not 'batchStatusCode' in self._data_dict or self._data_dict['batchStatusCode'] is None:
             # should never happen, bug it it does
             return False
@@ -470,26 +462,21 @@ class StartSession(JSONCmd):
                 {params}                
             }}'''
 
-
     def get_bare_json(self):
-        parStr = ''
-        if self._attrs != None and self._attrs.len() > 0:
-            parStr = ' ,"parameters": {attrs} '.format(attrs = self._attrs.get_json())
+        par_str = ''
+        if self._attrs is not None and self._attrs.len() > 0:
+            par_str = ' ,"parameters": {attrs} '.format(attrs = self._attrs.get_json())
         s = self._req_json.format(
             chan = self._uaci_params.get_channel(),
             aud_lev = self._uaci_params.get_audience_level(),
             aud_fname = self._uaci_params.get_audienceID_field_name(),
             aud_type = get_type(self._uaci_params.get_audience_ID_val()),
             aud_id = self._uaci_params.get_audience_ID_val(),
-            rely = self._rely, params = parStr)
-        #s = wrap_command(self._uaci_params.get_session_id(),s)
+            rely = self._rely, params = par_str)
         return s
 
     def get_send_attributes(self, descr_name = None):
-        ''' Only to facilitate one debug
-        return Attributes() with attributes sent
-        :return:
-        '''
+        ''' Only to facilitate one debug '''
         if descr_name is None:
             descr_name = "send attribues "+str(datetime.datetime.now())
         send_attributes = Attributes(descr_name)
@@ -747,31 +734,6 @@ class BatchCmds(JSONCmd):
         self._cmdsList.append(cmd)
         return self
 
-
-
-def myREST(bodyJson, UACIUrl, verbose):
-    global log
-    ret = requests.post(UACIUrl, headers=EVNetUtils.head, data = bodyJson
-                        , proxies = g.fiddlerProxy)
-    # adjust from bytes to string
-    if (not ret.ok):
-        g.log.info("error")
-    if (verbose or not ret.ok):
-        g.log.info("response content:\n");
-        g.log.info(ret.content)
-    return ret
-
-
-def callAPI(cmd):
-    if not isinstance(cmd, JSONCmd):
-        raise TypeError
-
-    resp = myREST(cmd.get_json(), False)
-    cmd.set_json_from_rsp(resp)
-    if not cmd.OK():
-        cmd.dump(True)
-        return False
-    return True
 
 
 def API_unit_test(uaci_params, inter_point):

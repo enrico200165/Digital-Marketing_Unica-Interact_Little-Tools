@@ -10,7 +10,7 @@ kept just 'in case'
 
 
 import globals as g
-import InteractAPIUtils as IA
+import interactCommands as IA
 
 
 def startSession_trigger_stored_procedure():

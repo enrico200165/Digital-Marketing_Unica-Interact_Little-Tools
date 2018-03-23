@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 
 import globals as g
+import requests
+import interactCommands as ic
 
 head = {
     "Cache-Control": "max-age=0"
@@ -35,6 +37,30 @@ def setFiddler(activateIt, proxyDict,UACIUrl):
         proxyDict["9080"] = http_proxy
         g.log.info("fiddler proxying active: "+str(activateIt) +"\n"+ str(proxyDict))
 
+
+def myREST(bodyJson, UACIUrl, verbose):
+    global log
+    ret = requests.post(UACIUrl, headers=head, data = bodyJson
+                        , proxies = g.fiddlerProxy)
+    # adjust from bytes to string
+    if (not ret.ok):
+        g.log.info("error")
+    if (verbose or not ret.ok):
+        g.log.info("response content:\n");
+        g.log.info(ret.content)
+    return ret
+
+
+def callAPI(cmd):
+    if not isinstance(cmd, ic.JSONCmd):
+        raise TypeError
+
+    resp = myREST(cmd.get_json(), False)
+    cmd.set_json_from_rsp(resp)
+    if not cmd.OK():
+        cmd.dump(True)
+        return False
+    return True
 
 if __name__ == "__main__":
     pass

@@ -195,6 +195,9 @@ class InteractParamsBundle(object):
         new = copy.deepcopy(self)
         return new
 
+    def setSessionID(self, id):
+        self._session_id = id
+
 def parseCmdLinePars():
     argpars  = argparse.ArgumentParser()
     argpars.add_argument("--url",help = "Interact REST Endpoint URL")
