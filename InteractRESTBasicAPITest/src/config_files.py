@@ -2,7 +2,8 @@
 
 import configparser
 import globals as g
-import interactCommands as ia
+from InteractRESTCore import interactCommands as ia
+
 
 def read_config_file(pathname):
     '''' just read (and parse file) '''

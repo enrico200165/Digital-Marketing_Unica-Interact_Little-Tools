@@ -352,57 +352,14 @@ import common.auth
 '''
 
 
-from locust import HttpLocust, TaskSet
+from locust import HttpLocust, TaskSet, task
 
-# --- da altro file
-from argparse import Namespace
-from locust import runners
-# import locustfile
+from locust_session01 import WebSession01
 
-
-
-def login(l):
-    l.client.post("/login", {"username":"ellen_key", "password":"education"})
-
-def logout(l):
-    l.client.post("/logout", {"username":"ellen_key", "password":"education"})
-
-def index(l):
-    l.client.get("/")
-
-def profile(l):
-    l.client.get("/profile")
-
-class UserBehavior(TaskSet):
-    tasks = {index: 2, profile: 1}
-
-    def on_start(self):
-        login(self)
-
-    def on_stop(self):
-        logout(self)
-
-class WebsiteUser(HttpLocust):
-    task_set = UserBehavior
-    min_wait = 5000
-    max_wait = 9000
+def simpleTest():
+    ws = WebSession01()
+    for ltask in ws.task_set:
+        print(ltask)
 
 
-
-
-options = Namespace()
-options.host = "http://localhost"
-options.num_clients = 10
-options.hatch_rate = options.num_clients
-options.num_requests = options.num_clients * 10
-
-runners.locust_runner = runners.LocalLocustRunner([locustfile.MyUser], options)
-runners.locust_runner.start_hatching(wait=True)
-runners.locust_runner.greenlet.join()
-
-for name, value in runners.locust_runner.stats.entries.items():
-    print(name,
-          value.min_response_time,
-          value.median_response_time,
-          value.max_response_time,
-          value.total_rps)
+simpleTest()

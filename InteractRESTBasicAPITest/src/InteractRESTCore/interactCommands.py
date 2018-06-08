@@ -410,7 +410,7 @@ class JSONCmd(object):
         end_time = time.time()
         self._time_msec = (end_time - start_time)*1000
         if verbose:
-            g.log.info("called  {:12}  at {} time = {} ".format(type(self).__name__
+            g.log.info("called {:12}  at {} time = {} ".format(type(self).__name__
                                                                 ,datetime.datetime.now().time(),(end_time - start_time)*1000))
             self.dump(verbose)
         if dumpAttributes:

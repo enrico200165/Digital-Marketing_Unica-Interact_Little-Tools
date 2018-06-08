@@ -2,7 +2,7 @@
 
 import datetime
 import time
-import interactCommands as IA
+from InteractRESTCore import interactCommands as IA
 import globals as g
 import EVNetUtils as ut
 import db_little_functs as jdb
@@ -47,20 +47,74 @@ def timeStamp():
     return s
 
 
-def tstampAudienceID():
-    return "RegI p "+timeStamp()
+def tstampAudienceID(prefix = ""):
+    return prefix+timeStamp()
 
 
-def genAudienceIDs(n):
+def genAudienceIDs(n, prefix = ""):
     ids = []
     for i in range(1,n+1):
         nr =  '{nr:03d}'.format(nr=i)
-        id = tstampAudienceID()+"-"+nr
+        id = prefix+tstampAudienceID()+"-"+nr
         ids.append(id)
     return ids
 
 
-def session_web01_test(nr_test_cookies, nr_repetitions = 1, verbose = False, dumpCalls = False):
+
+def API_unit_test(uaci_params, inter_point):
+    '''
+    One method of calling the Interact API is by using JSON over HTTP
+    The REST API returns SessionIDs and messages in the HTML-escaped
+    format and not in the Unicode format.
+
+    :return:
+    '''
+
+    global head, log
+
+    ok = True
+    # GET VERSION
+    # ok = ok and callAPI(GetVersion(sess_id))
+    ok = ok and IA.GetVersion(uaci_params).call(True)
+
+    # START SESSION
+    ok = ok and IA.StartSession(uaci_params, None,"false").call(True)
+
+    #  GET OFFERS
+    ok = ok and IA.GetOffers(uaci_params, inter_point).call(True)
+
+    #  POST EVENT
+    eventNameString = g.events[0][0]
+    po = PostEvent(uaci_params,eventNameString)
+    ok = ok and po.call(True)
+    # add a couple of attrributes
+    attrs = Attributes(('ds_segment',"string","enrico_ds_segment"))
+    attrs.add_tuple(('ds_cmp_1', 'numeric',0.0))
+    po.sett_attrs(attrs)
+    ok = ok and  po.call(True)
+
+    #  GET PROFILE
+    ok = ok and IA.GetProfile(uaci_params).call(True)
+
+    #  SET DEBUG
+    ok = ok and SetDebug(uaci_params,False).call(True)
+    ok = ok and SetDebug(uaci_params,True).call(True)
+
+    # BATCH
+    cmdsList = list()
+    cmdsList.append(SetDebug(uaci_params,False))
+    cmdsList.append(GetVersion(uaci_params))
+    # cmdsList.append(GetProfile(uaci_params))
+    bc = BatchCmds(uaci_params, cmdsList)
+    ok = ok and bc.call(True)
+
+    #  END SESSION
+    ok = ok and EndSession(uaci_params).call(True)
+
+
+
+
+def session_web01_test(nr_test_cookies, nr_repetitions = 1, verbose = False, dumpCalls = False, checkOnDB = True):
     '''
     Trying to mirror the specs
     :return:
@@ -71,7 +125,7 @@ def session_web01_test(nr_test_cookies, nr_repetitions = 1, verbose = False, dum
         pars = g.uaci_params.deepcopy()
         new_vistor_attrs = g.new_vistor_profile_attrs.deepcopy()
 
-        cookies = genAudienceIDs(nr_test_cookies)
+        cookies = genAudienceIDs(nr_test_cookies, "testP")
 
         for iterCount, cookie in enumerate(cookies):
             # cookie_known = None
@@ -162,25 +216,25 @@ def session_web01_test(nr_test_cookies, nr_repetitions = 1, verbose = False, dum
                     attrs_after_evt  = profile.create_Attributes("after event")
                     attr_value_after_batch = attrs_after_evt.get_attribute_value(attribute_name)
                     g.log.info("\nafter post event and Batch:  {} = {}".format(attribute_name, attr_value_after_batch))
-                    # check on DB
-                    row = jdb.dbGetProfileCol(cookie, attribute_name)
-                    if row is not None:
-                        # compare attribute values
-                        if (attribute_name in row):
-                            g.log.info("query on DB:       {} = {}".format(attribute_name,str(row[attribute_name])))
-                            dbAttrNum = row[attribute_name] #int(row[attribute_name])
-                            profAttrNum = attr_value_after_batch
-                            if (dbAttrNum != profAttrNum):
-                                g.log.info("test failed, attr values not equal: profile ={}  DB ={}"
-                                           .format(profAttrNum,dbAttrNum))
-                                return False
+                    if checkOnDB:
+                        row = jdb.dbGetProfileCol(cookie, attribute_name)
+                        if row is not None:
+                            # compare attribute values
+                            if (attribute_name in row):
+                                g.log.info("query on DB:       {} = {}".format(attribute_name,str(row[attribute_name])))
+                                dbAttrNum = row[attribute_name] #int(row[attribute_name])
+                                profAttrNum = attr_value_after_batch
+                                if (dbAttrNum != profAttrNum):
+                                    g.log.info("test failed, attr values not equal: profile ={}  DB ={}"
+                                               .format(profAttrNum,dbAttrNum))
+                                    return False
+                                else:
+                                    pass
                             else:
-                                pass
+                                g.log.error("test failed, did not find in table attr: {}"
+                                            .format(attribute_name))
                         else:
-                            g.log.error("test failed, did not find in table attr: {}"
-                                        .format(attribute_name))
-                    else:
-                        g.log.error("failed query: cannot find on db attribute: {}".format(attribute_name))
+                            g.log.error("failed query: cannot find on db attribute: {}".format(attribute_name))
 
 
                     pageActionLog("PageExit")
@@ -204,7 +258,8 @@ def session_web01_test(nr_test_cookies, nr_repetitions = 1, verbose = False, dum
                         g.log.error("failed endSession, cookie: {} sessionId: {}".format(cookie,pars.get_session_id()))
                     g.log.info("SESSION ENDED for cookie <{}>\n\n".format(cookie))
                 g.log.info(" ----- cookie '{}' TEST ENDED ------\n".format(cookie))
-                g.log.info(jdb.dbGetAudIDRow(cookie, 0, verbose = False))
+                if checkOnDB:
+                    g.log.info(jdb.dbGetAudIDRow(cookie, 0, verbose = False))
                 g.log.info("SQL for query: \n" + jdb.generateSQLForAudID(cookie))
 
     # except Exception as exc:

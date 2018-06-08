@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
 import globals as g
-import EVNetUtils as nu
 import testSession as jt
+import EVNetUtils as nu
 
 
 def main():
@@ -11,6 +11,7 @@ def main():
     """
 
     g.init()
+    #
     nu.setFiddler(True, g.fiddlerProxy,g.uaci_params.get_url())
 
     success = True
@@ -18,15 +19,17 @@ def main():
     # jdb.dbGetAudIDRow('enricop 0302 183439 726',500, True)
     # jdb.dbGetAudIDRows("enrico%",500, True)
 
-    #InteractAPIUtils.API_unit_test( g.uaci_params,g.interaction_points[1])
-    #v.startSession_fails_missing_audience_id_are_attributes_set()
-    # v.startSession_fails_do_offers_work()
-    #v.startSession_trigger_stored_procedure()
-    #
-    nr_test_cookies= 10
-    nr_repetitions =  2
+    # API Test, normally should not be necessary
+    if False:
+        jt.API_unit_test(g.uaci_params,  g.interaction_points[0])
+
+    nr_test_cookies = 1
+    nr_repetitions = 1
+
+    inIntranet = not ("nfinit" in g.uaci_params.get_url())
+    checkOnDB = not inIntranet
     # success = success and jt.session_web01_test(nr_test_cookies, nr_repetitions, verbose = False, dumpCalls= False)
-    success = success and jt.session_web01_test(nr_test_cookies, nr_repetitions, verbose = True, dumpCalls= True)
+    success = success and jt.session_web01_test(nr_test_cookies, nr_repetitions, True, True,checkOnDB)
     #jt.stress_test_developing()
     # jt.testPersistSessionData()
     # jt.testEvents()

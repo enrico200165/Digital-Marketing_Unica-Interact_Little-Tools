@@ -12,7 +12,7 @@ horror and evil!!! GLOBAL VARIABLES
 ================================================= '''
 
 # some of these really is a constant, not so evil ;-)
-config_file_path = "../../../../dev_data/jlr/interact_tester.ini"
+config_file_path = "../../../../data_dev/jlr/interact_tester.ini"
 DESIRED_ENCODING = "utf-8"
 
 log = None
@@ -118,7 +118,7 @@ class ConfigTestItemsList(object):
         return self
 
 
-interaction_points = None
+interaction_points = ["HeroImage","RegisterYourInterest", "WhatIsImportantToYou"]
 audienceIDs = None
 new_vistor_profile_attrs = None
 

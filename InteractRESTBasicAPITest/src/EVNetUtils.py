@@ -2,7 +2,7 @@
 
 import globals as g
 import requests
-import interactCommands as ic
+from InteractRESTCore import interactCommands as ic
 
 head = {
     "Cache-Control": "max-age=0"
