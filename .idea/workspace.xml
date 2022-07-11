@@ -7,107 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="274bd61c-7dfe-412e-8a61-9779cde7927b" name="Default" comment="Improved testSession&#10;&#10;major cleanup of code">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/e_viali.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/e_viali.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/10_capstone/preproc01.R" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/10_capstone/tb_learn.R" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/10_capstone/tokenClean.R" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/BEFORE_BATCH_InteractAPIUtils.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/EVNetUtils.py" afterPath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/EVNetUtils.py" />
-      <change beforePath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/InteractAPIUtils.py" afterPath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/InteractAPIUtils.py" />
-      <change beforePath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/JLR_session.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/LoggerModule.py" afterPath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/LoggerModule.py" />
-      <change beforePath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/MAINCustomerJourneyBits.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/config_files.py" afterPath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/config_files.py" />
-      <change beforePath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/db_jlr.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/globals.py" afterPath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/globals.py" />
-      <change beforePath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/testdata.py" afterPath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/testdata.py" />
-      <change beforePath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/verifications.py" afterPath="$PROJECT_DIR$/out/production/InteractRESTBasicAPITest/verifications.py" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InteractRESTBasicAPITest/InteractRESTBasicAPITest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/InteractRESTBasicAPITest/InteractRESTBasicAPITest.iml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config_files.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/config_files.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding>
-                <element signature="e#23#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db_little_functs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/db_little_functs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EVNetUtils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/EVNetUtils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainTest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/MainTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testSession.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/testSession.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="globals.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/globals.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="227" column="0" lean-forward="false" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InteractAPIUtils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/InteractRESTBasicAPITest/src/InteractAPIUtils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="583" column="0" lean-forward="false" selection-start-line="583" selection-start-column="0" selection-end-line="583" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -246,6 +154,7 @@
     <option name="width" value="923" />
     <option name="height" value="701" />
   </component>
+  <component name="ProjectId" id="1zbI2L2cMW3utXRfQzq762JzkWF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -371,21 +280,26 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.24827586" />
-    <property name="jdk.selected.JAVA_MODULE" value="JDK_WAS_1.7" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="last_opened_file_path" value="C:/programs_foss/R-3.4.3/bin/R.exe" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/interact_callout_deployable/src" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
-    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="marketingcloudlittletools_python" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="http&#9;null&#9;null&#10;BANNER&#9;FILE&#9;file://C:/Users/e_viali/AppData/Local/Continuum/anaconda3/pkgs/libssh2-1.8.0-vc14hcf584a9_2/Library/share/man/man3/libssh2_banner_set.3&#10;banner&#9;null&#9;null&#10;DS_SEGM&#9;null&#9;null" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
+    <property name="jdk.selected.JAVA_MODULE" value="JDK_WAS_1.7" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/interact_callout_deployable/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.24827586" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -406,18 +320,6 @@
       <recent name="C:\Users\e_viali\Documents\dev\intellij\MarketingCloudLittleTools_Python\InteractCallOut\src" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Python.EMPTY">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -428,74 +330,41 @@
     </configuration>
     <configuration name="Interact_callout_JLR_V02_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interact_callout_JLR_V02_test.Interact_callout_JLR_V02_test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <module name="interact_callout_JLR_v02" />
-      <envs />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="UACI_Dev_RestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interact.clients_enrico.UACI_Dev_RestClient" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <module name="interact_java_clients" />
-      <envs />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+    <configuration default="true" type="JetRunConfigurationType">
       <module name="InteractRESTBasicAPITest" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="API Tests" type="PythonConfigurationType" factoryName="Python">
+      <module name="InteractRESTBasicAPITest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -506,14 +375,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="InteractRESTBasicAPITest" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InteractRESTBasicAPITest/src/InteractAPIUtils.py" />
       <option name="PARAMETERS" value="--url &quot;http://prd-jlr-irt02.occam-dm.com/interact/servlet/RestServlet&quot; --channel &quot;LRDX_Staging&quot; --aud_lev &quot;Online&quot; --aud_fname &quot;CookieID&quot;  --sess_id 9999   --aud_id &quot;enrico p 0313 15:54:19.608-002&quot;" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="EMPTY" type="PythonConfigurationType" factoryName="Python">
+      <module name="InteractRESTBasicAPITest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -524,14 +396,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="InteractRESTBasicAPITest" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InteractRESTBasicAPITest/src/MainTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="MAINCustomerJourneyBits EXT Sec" type="PythonConfigurationType" factoryName="Python">
+      <module name="InteractRESTBasicAPITest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -542,14 +417,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="InteractRESTBasicAPITest" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InteractRESTBasicAPITest/MAINCustomerJourneyBits.py" />
       <option name="PARAMETERS" value="--url &quot;https://houston.occam-dm.com/interact/servlet/RestServlet&quot; --channel &quot;LRDX_Staging&quot; --aud_lev &quot;Online&quot; --aud_fname &quot;CookieID&quot;  --sess_id 9999   --aud_id &quot;41131479893043143515320&quot;" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="MAINCustomerJourneyBits INT Sec" type="PythonConfigurationType" factoryName="Python">
+      <module name="InteractRESTBasicAPITest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -560,14 +438,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="InteractRESTBasicAPITest" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InteractRESTBasicAPITest/MAINCustomerJourneyBits.py" />
       <option name="PARAMETERS" value="--url &quot;https://prd-jlr-irt02.occam-dm.com/interact/servlet/RestServlet&quot; --channel &quot;LRDX_Staging&quot; --aud_lev &quot;Online&quot; --aud_fname &quot;CookieID&quot;  --sess_id 9999   --aud_id &quot;41131479893043143515320&quot;" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="STD Session" type="PythonConfigurationType" factoryName="Python">
+      <module name="InteractRESTBasicAPITest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -578,14 +459,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="InteractRESTBasicAPITest" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InteractRESTBasicAPITest/src/MainTest.py" />
       <option name="PARAMETERS" value="--channel &quot;LRDX_Staging&quot; --aud_lev &quot;Online&quot; --aud_fname &quot;CookieID&quot;  --sess_id 333   --aud_id &quot;41131479893043143515320&quot;" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="config_files" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="InteractRESTBasicAPITest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -596,14 +480,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="InteractRESTBasicAPITest" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InteractRESTBasicAPITest/src/config_files.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="verifications" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="InteractRESTBasicAPITest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -614,12 +501,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="InteractRESTBasicAPITest" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InteractRESTBasicAPITest/src/verifications.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="preproc01" type="RRunConfigurationType" factoryName="R">
       <option name="SCRIPT_PATH" value="$PROJECT_DIR$/10_capstone/preproc01.R" />
@@ -628,60 +517,58 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <envs />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="InteractRESTBasicAPITest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="InteractRESTBasicAPITest" />
+      <method v="2" />
     </configuration>
-    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Unittests in InteractAPIUtils.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="InteractRESTBasicAPITest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InteractRESTBasicAPITest/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="InteractRESTBasicAPITest" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/InteractRESTBasicAPITest/src/InteractAPIUtils.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="InteractRESTBasicAPITest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="InteractRESTBasicAPITest" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -689,71 +576,72 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="InteractRESTBasicAPITest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="InteractRESTBasicAPITest" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <module name="InteractRESTBasicAPITest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="InteractRESTBasicAPITest" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="py.test">
+      <module name="InteractRESTBasicAPITest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="InteractRESTBasicAPITest" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
-    <list size="11">
-      <item index="0" class="java.lang.String" itemvalue="Python.MAINCustomerJourneyBits INT Sec" />
-      <item index="1" class="java.lang.String" itemvalue="Python.MAINCustomerJourneyBits EXT Sec" />
-      <item index="2" class="java.lang.String" itemvalue="Python.STD Session" />
-      <item index="3" class="java.lang.String" itemvalue="Python.EMPTY" />
-      <item index="4" class="java.lang.String" itemvalue="Python.API Tests" />
-      <item index="5" class="java.lang.String" itemvalue="R.preproc01" />
-      <item index="6" class="java.lang.String" itemvalue="Application.Interact_callout_JLR_V02_test" />
-      <item index="7" class="java.lang.String" itemvalue="Application.UACI_Dev_RestClient" />
-      <item index="8" class="java.lang.String" itemvalue="Python.verifications" />
-      <item index="9" class="java.lang.String" itemvalue="Python.config_files" />
-      <item index="10" class="java.lang.String" itemvalue="Python tests.Unittests in InteractAPIUtils.py" />
+    <list>
+      <item itemvalue="Application.Interact_callout_JLR_V02_test" />
+      <item itemvalue="Application.UACI_Dev_RestClient" />
+      <item itemvalue="Python.MAINCustomerJourneyBits INT Sec" />
+      <item itemvalue="Python.MAINCustomerJourneyBits EXT Sec" />
+      <item itemvalue="Python.STD Session" />
+      <item itemvalue="Python.EMPTY" />
+      <item itemvalue="Python.API Tests" />
+      <item itemvalue="Python.verifications" />
+      <item itemvalue="Python.config_files" />
+      <item itemvalue="Python tests.Unittests in InteractAPIUtils.py" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.config_files" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in InteractAPIUtils.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python.verifications" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Interact_callout_JLR_V02_test" />
-        <item index="4" class="java.lang.String" itemvalue="Application.UACI_Dev_RestClient" />
+      <list>
+        <item itemvalue="Python.config_files" />
+        <item itemvalue="Python tests.Unittests in InteractAPIUtils.py" />
+        <item itemvalue="Python.verifications" />
+        <item itemvalue="Application.Interact_callout_JLR_V02_test" />
+        <item itemvalue="Application.UACI_Dev_RestClient" />
       </list>
     </recent_temporary>
   </component>
@@ -762,9 +650,7 @@
       <projects_view />
     </option>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER" />
   </component>
@@ -1228,31 +1114,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/10_capstone" />
+    </ignored-roots>
     <MESSAGE value="seems to work, but the stored procedure does not work" />
     <MESSAGE value="Improved python testing" />
     <MESSAGE value="Started implementing test of sending event that requests to persist data, even though such functionality is NOT yet implemented" />
@@ -1286,49 +1158,41 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$USER_HOME$/IBM/IMS/Interact/lib/unica-common.jar!/com/unica/manager/utils/i18n/I18nUtility.class</url>
           <line>211</line>
-          <properties />
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/interact_callout_test/src/callouttest/SampleExternalCallout.java</url>
           <line>98</line>
-          <properties />
           <option name="timeStamp" value="219" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/interact_callout_deployable/src/interact_callout_JLR_v01/CreateAndSegmentNewCookie_v00.java</url>
           <line>435</line>
-          <properties />
           <option name="timeStamp" value="292" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/interact_callout_deployable/src/interact_callout_JLR_v01/CreateAndSegmentNewCookie_v00.java</url>
           <line>487</line>
-          <properties />
           <option name="timeStamp" value="338" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/interact_callout_deployable/src/interact_callout_JLR_v01/CreateAndSegmentNewCookie_v00.java</url>
           <line>354</line>
-          <properties />
           <option name="timeStamp" value="444" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/interact_callout_deployable/src/interact_callout_JLR_v01/CreateAndSegmentNewCookie_v00.java</url>
           <line>326</line>
-          <properties />
           <option name="timeStamp" value="445" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/interact_callout_JLR_v02/src/interact_callout_JLR_v02/CreateAndSegmentNewCookie_v02.java</url>
           <line>497</line>
-          <properties />
           <option name="timeStamp" value="471" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/interact_java_clients/src/interact/clients_enrico/UACI_Dev_RestClient.java</url>
           <line>95</line>
-          <properties />
           <option name="timeStamp" value="489" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1362,9 +1226,6 @@
           <option name="timeStamp" value="633" />
         </line-breakpoint>
       </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -1372,9 +1233,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="657" />
     </breakpoint-manager>
-    <watches-manager />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="setValue">
